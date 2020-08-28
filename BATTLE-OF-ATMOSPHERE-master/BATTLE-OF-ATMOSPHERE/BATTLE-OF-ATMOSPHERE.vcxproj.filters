@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Character.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Create.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="DiretX.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ice.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Impact.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Jet.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChip.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerup.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbScene.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Xinput.cpp">
+      <Filter>Feature</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Create.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ice.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Impact.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Jet.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChip.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerup.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ClimbScene.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Xinput.h">
+      <Filter>Feature</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{56206861-c9b3-4e90-8695-0dcf497cc72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{57a60d9f-c65e-4e00-bf96-95767d5783fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature">
+      <UniqueIdentifier>{762ad161-6588-45bb-ae74-054cb65bde30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
