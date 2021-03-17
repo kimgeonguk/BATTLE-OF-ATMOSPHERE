@@ -104,6 +104,7 @@ typedef struct
 	FLOAT m_height = 96.0f;
 	FLOAT m_item_gravity = 0.1f;
 	ITEM_ m_item_kind;
+
 }ITEMSTATE;
 
 /**

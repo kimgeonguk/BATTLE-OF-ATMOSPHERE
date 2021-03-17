@@ -1,10 +1,11 @@
 ﻿#ifndef DirectX_H
 #define DirectX_H
 
+#include "stdio.h"
+
 #include <windows.h>
 #include <d3d9.h>
 #include <dinput.h>
-#include <d3dx9tex.h>
 #include <tchar.h>
 
 #define TEX_MAX 20

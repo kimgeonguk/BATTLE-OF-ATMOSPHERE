@@ -68,7 +68,8 @@ HRESULT DIRECTX::InitD3Device(HWND hWnd, CONST TCHAR* FilePath)
 			return E_FAIL;
 		}
 	}
-	if (FAILED(D3DXCreateFont(
+	if (FAILED(D3DXCreateFont
+	(
 		pD3Device,                 /* デバイス */
 		16,                      /* 文字の高さ */
 		0,                       /* 文字幅 */
@@ -79,8 +80,8 @@ HRESULT DIRECTX::InitD3Device(HWND hWnd, CONST TCHAR* FilePath)
 		OUT_DEFAULT_PRECIS,      /* 出力精度 */
 		DEFAULT_QUALITY,         /* 出力品質 */
 		DEFAULT_PITCH | FF_SWISS,/* フォントピッチとファミリ */
-		_T("ＭＳ Ｐゴシック"),       /* フォント名 */
-		&pFont)))
+		_T("ＭＳ Ｐゴシック"), &pFont)))       /* フォント名 */
+	
 	{
 		MessageBox(0, _T("フォントの作成に失敗しました"), "", MB_OK);
 		return E_FAIL;

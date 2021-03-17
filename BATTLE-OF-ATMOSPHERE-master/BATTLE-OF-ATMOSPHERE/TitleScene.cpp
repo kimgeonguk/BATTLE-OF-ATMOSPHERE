@@ -76,9 +76,9 @@ VOID TITLE::Process()
 		}
 		
 		// ボタンを押されたら選択UIをいったんリセット
+		m_title_ui_tu_start = 0.0f;
 		m_title_ui_tu_help = 0.0f;
 		m_title_ui_tu_exit = 0.0f;
-		m_title_ui_tu_start = 0.0f;
 
 		//それぞれのUIがアニメーション、そのシーンへ遷移
 		switch (current_id)

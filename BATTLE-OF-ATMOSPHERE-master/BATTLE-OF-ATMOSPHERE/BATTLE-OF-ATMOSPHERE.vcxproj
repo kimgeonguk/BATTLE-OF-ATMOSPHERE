@@ -78,8 +78,8 @@
     <LibraryPath>$(DXSDK_DIR)Lib\$(PlatformTarget);C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Lib\x64\SoundLib\Debug;C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Lib\x64\SoundLib\Relese;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(DXSDK_DIR)include;$(PlatformTarget);C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Include\x64\include;C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Include\x86\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(DXSDK_DIR)Lib\$(PlatformTarget);C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Lib\x64\SoundLib\Debug;C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Lib\x64\SoundLib\Relese;$(LibraryPath)</LibraryPath>
+    <OutDir>.</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(DXSDK_DIR)include;$(PlatformTarget);C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Include\x64\include;C:\Users\81804\Desktop\BATTLE-OF-ATMOSPHERE\BATTLE-OF-ATMOSPHERE\Include\x86\include;$(IncludePath)</IncludePath>
